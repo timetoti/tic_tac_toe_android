@@ -14,13 +14,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Game2.xaml.cs">
-      <DependentUpon>Game2.xaml</DependentUpon>
+    <Compile Update="Views\Game2Page.xaml.cs">
+      <DependentUpon>Game2Page.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Game2.xaml">
+    <EmbeddedResource Update="Views\Game2Page.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

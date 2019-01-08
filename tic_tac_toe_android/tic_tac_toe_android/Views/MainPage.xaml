@@ -7,9 +7,10 @@
     <StackLayout>
         <!-- Place new controls here -->
         <Label Text="Welcome to tic-tac-toe game!" 
+               FontSize="Large"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-        <Button Text="2 players"/>
+        <Button Text="2 players" Clicked="Game2ButtonClicked"/>
     </StackLayout>
 
 </ContentPage>
